@@ -21,7 +21,9 @@ maps.google.com 的响应时间过长。
 页头Kourion Ancient Amphitheater 显示错误
 
 6、
-
+我们网站是
+geomilevpark.com
+检查一遍看下是否有错误
 
 
 
@@ -116,7 +118,7 @@ https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-bul
 生成一个文件忽略不需要上传的文件
 
 
-
+检查下是否正确
 
 
 
