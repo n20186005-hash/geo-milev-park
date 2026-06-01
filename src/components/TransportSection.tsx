@@ -81,7 +81,7 @@ export default function TransportSection() {
         </h2>
         <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
           {transportOptions.map((option) => (
             <TransportCard
               key={option.key}
@@ -90,6 +90,23 @@ export default function TransportSection() {
               description={t(`${option.key}Desc` as any)}
             />
           ))}
+        </div>
+        
+        <div className="flex justify-center">
+          <a
+            href={`https://www.google.com/maps/dir//${encodeURIComponent('Geo Milev Park, 1111 Sofia, Bulgaria')}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-medium text-white transition-colors"
+            style={{ background: 'var(--accent)' }}
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M9 20l-5.447-2.724A1 1 0 0 1 3 16.382V5.618a1 1 0 0 1 1.447-.894L9 7l6-3 5.447 2.724A1 1 0 0 1 21 7.618v10.764a1 1 0 0 1-1.447.894L15 17l-6 3z" />
+              <path d="M9 7v13" />
+              <path d="M15 4v13" />
+            </svg>
+            {t('getDirections')}
+          </a>
         </div>
       </div>
     </section>

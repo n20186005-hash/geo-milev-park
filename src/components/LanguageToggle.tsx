@@ -1,7 +1,7 @@
 'use client';
 
 import { useLocale } from 'next-intl';
-import { useRouter, usePathname, routing, type Locale } from '@/i18n/routing';
+import { usePathname, routing, type Locale, Link } from '@/i18n/routing';
 import { useState, useRef, useEffect } from 'react';
 
 const labels: Record<string, string> = {
@@ -12,7 +12,6 @@ const labels: Record<string, string> = {
 
 export default function LanguageToggle() {
   const locale = useLocale();
-  const router = useRouter();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -26,13 +25,6 @@ export default function LanguageToggle() {
     document.addEventListener('mousedown', handleClick);
     return () => document.removeEventListener('mousedown', handleClick);
   }, []);
-
-  function switchLocale(next: Locale) {
-    setOpen(false);
-    if (next === locale) return;
-    
-    router.replace(pathname, { locale: next });
-  }
 
   return (
     <div ref={ref} className="relative">
@@ -62,10 +54,12 @@ export default function LanguageToggle() {
           style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}
         >
           {routing.locales.map((loc) => (
-            <button
+            <Link
               key={loc}
-              onClick={() => switchLocale(loc as Locale)}
-              className="w-full text-left px-4 py-2.5 text-sm transition-colors"
+              href={pathname}
+              locale={loc as Locale}
+              onClick={() => setOpen(false)}
+              className="block w-full text-left px-4 py-2.5 text-sm transition-colors"
               style={{
                 color: loc === locale ? 'var(--accent)' : 'var(--text-primary)',
                 fontWeight: loc === locale ? 600 : 400,
@@ -75,7 +69,7 @@ export default function LanguageToggle() {
               onMouseLeave={(e) => (e.currentTarget.style.background = 'transparent')}
             >
               {labels[loc]}
-            </button>
+            </Link>
           ))}
         </div>
       )}

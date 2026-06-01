@@ -27,20 +27,23 @@ export default function Footer() {
               {t('officialResourcesTitle')}
             </h3>
             <div className="flex flex-col gap-2">
-              <a href="https://www.culture.gov.cy/dmculture/da/da.nsf/DMLindex_gr/DMLindex_gr?OpenDocument" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.cyprusCulture || 'Cyprus Department of Antiquities'}
+              <a href="https://www.sofia.bg/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {officialLinks.sofiaCity || 'Sofia Municipality'}
               </a>
-              <a href="https://www.visitcyprus.com/en/discovercyprus/culture/sites-monuments/240-kourion-archaeological-site" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.visitCyprus || 'Deputy Ministry of Tourism'}
+              <a href="http://visitsofia.bg/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {officialLinks.sofiaTourism || 'Sofia Tourism'}
               </a>
-              <a href="https://www.limassoltourism.com/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.limassolTourism || 'Limassol Tourism Board'}
+              <a href="https://www.tourism.government.bg/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {officialLinks.bulgariaTourism || 'Ministry of Tourism'}
               </a>
-              <a href="https://kourion.org/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.kourionOrg || 'Kourion Municipality'}
+              <a href="https://mc.government.bg/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {officialLinks.bulgariaCulture || 'Ministry of Culture'}
               </a>
-              <a href="https://www.europeana.eu/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {officialLinks.europeana || 'Europeana Cyprus Antiquities'}
+              <a href="http://ninkn.bg/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {officialLinks.bulgariaHeritage || 'Institute of Cultural Heritage'}
+              </a>
+              <a href="https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-bulgaria" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
+                {officialLinks.bulgariaMFA || 'MFA - Consular Services'}
               </a>
             </div>
           </div>

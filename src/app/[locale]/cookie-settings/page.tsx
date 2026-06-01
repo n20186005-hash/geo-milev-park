@@ -8,7 +8,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://kourionamphitheater.com';
+  const baseUrl = 'https://geomilevpark.com';
   const zhUrl = `${baseUrl}/zh/cookie-settings`;
   const enUrl = `${baseUrl}/en/cookie-settings`;
   const elUrl = `${baseUrl}/el/cookie-settings`;

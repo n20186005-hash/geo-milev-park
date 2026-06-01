@@ -3,15 +3,15 @@ import { useTranslations } from 'next-intl';
 export default function Hero() {
   const t = useTranslations('hero');
 
-  const mapsLink = t('mapsLink') || 'https://maps.app.goo.gl/KxwFywyG12yxtgsF9';
+  const mapsLink = t('mapsLink') || 'https://maps.app.goo.gl/4jdXFm3mLhMhdhhw9';
 
   return (
     <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">
       {/* Background image slideshow */}
       <div className="absolute inset-0">
         <img
-          src="/gallery/kourion-ancient-amphitheater-1.jpg"
-          alt="Kourion Ancient Amphitheater"
+          src="/gallery/geo-milev-park-1.jpg"
+          alt="Geo Milev Park"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />

@@ -141,7 +141,8 @@
     "walking": "Walking",
     "walkingDesc": "You can explore the park on foot from any point in the district.",
     "driving": "Driving",
-    "drivingDesc": "Easy access by car, street parking available in the area."
+    "drivingDesc": "Easy access by car, street parking available in the area.",
+    "getDirections": "Get Directions"
   },
   "route": {
     "title": "Recommended Route",
@@ -178,7 +179,7 @@
       "Park and surroundings",
       "View from the bench"
     ],
-    "viewAll": "View on Google Maps",
+    "viewAll": "View more photos on Google Maps",
     "showAll": "View All Photos",
     "showLess": "Show Less"
   },

@@ -15,7 +15,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const messages = (await import(`@/messages/${locale}.json`)).default;
-  const baseUrl = 'https://kourionamphitheater.com';
+  const baseUrl = 'https://geomilevpark.com';
 
   const zhUrl = `${baseUrl}/zh`;
   const enUrl = `${baseUrl}/en`;
@@ -30,7 +30,7 @@ export async function generateMetadata({
     openGraph: {
       title: messages.meta.title,
       description: messages.meta.description,
-      siteName: "Kourion Ancient Amphitheater",
+      siteName: "Geo Milev Park",
       locale: locale === 'zh' ? 'zh_CN' : locale === 'en' ? 'en_US' : locale === 'el' ? 'el_GR' : 'tr_TR',
       type: 'website',
     },

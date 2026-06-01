@@ -4,7 +4,7 @@ import { useMessages } from 'next-intl';
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
   const messages = useMessages() as any;
-  const mapsLink = messages?.hero?.mapsLink || 'https://maps.app.goo.gl/KxwFywyG12yxtgsF9';
+  const mapsLink = messages?.hero?.mapsLink || 'https://maps.app.goo.gl/4jdXFm3mLhMhdhhw9';
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -28,14 +28,14 @@ export default function MapEmbed() {
             This is for visual cleanliness only. Google's Terms of Service apply.
           */}
           <iframe
-            src="https://maps.google.com/maps?q=Kourion+Ancient+Amphitheater+Lemesos+Cyprus&output=embed"
+            src="https://maps.google.com/maps?q=Geo+Milev+Park+Sofia+Bulgaria&output=embed"
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Kourion Ancient Amphitheater"
+            title="Google Maps - Geo Milev Park"
           />
         </div>
 

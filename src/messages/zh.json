@@ -90,23 +90,23 @@
   "basicInfo": {
     "title": "基础信息",
     "officialName": "正式名称",
-    "officialNameValue": "格奥·米莱夫公园 (Geo Milev Park / Парк „Гео Милев“)",
+    "officialNameValue": "Парк „Гео Милев“",
     "type": "景点类型",
-    "typeValue": "城市公园 / 绿色空间",
+    "typeValue": "公园",
     "country": "国家",
     "countryValue": "保加利亚 (Bulgaria)",
     "city": "城市",
-    "cityValue": "索菲亚 (Sofia)",
+    "cityValue": "索菲亚市 (Sofia)",
     "googleRating": "谷歌评分",
-    "googleRatingValue": "4.5 (11,063)",
+    "googleRatingValue": "4.5(11,063)",
     "address": "地址",
     "addressValue": "ж.к. Гео Милев, 1111 Sofia, 保加利亚",
     "telephone": "联系电话",
-    "telephoneValue": "+359 88 779 0010",
+    "telephoneValue": "+359887790010",
     "accessibility": "无障碍设施",
     "accessibilityValue": "部分区域可通行",
     "plusCode": "Plus Code",
-    "plusCodeValue": "M9P7+J9"
+    "plusCodeValue": "M9P7+J9 索非亚 保加利亚"
   },
   "hours": {
     "title": "开放时间",
@@ -141,7 +141,8 @@
     "walking": "步行",
     "walkingDesc": "您可以从街区的任何地方步行探索公园。",
     "driving": "自驾",
-    "drivingDesc": "驾车轻松抵达，周边有街道停车位。"
+    "drivingDesc": "驾车轻松抵达，周边有街道停车位。",
+    "getDirections": "获取前往路线"
   },
   "route": {
     "title": "推荐游览路线",
@@ -178,7 +179,7 @@
       "公园及周围环境",
       "从长椅上看风景"
     ],
-    "viewAll": "在Google地图上查看位置",
+    "viewAll": "在Google地图上查看更多照片",
     "showAll": "显示完整照片",
     "showLess": "收起照片"
   },

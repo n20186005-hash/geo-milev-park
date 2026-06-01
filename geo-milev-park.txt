@@ -7,6 +7,23 @@ XXXXXXXXXX
 丰富下页面内容现在的内容还是太薄的了
 
 
+1、首屏背景图不显示修正
+2、照片画廊 照片不显示
+在Google地图上查看位置 改成 在Google地图上查看更多照片
+3、
+
+交通指南
+要补充到地址的具体路线
+
+4、地图位置 显示错误
+maps.google.com 的响应时间过长。
+5、
+页头Kourion Ancient Amphitheater 显示错误
+
+6、
+
+
+
 
 你正在用（Next.js开发）
 为一个新景点【 Geo Milev Park 】构建静态/Next.js 单页指南网站。
@@ -20,7 +37,24 @@ geo-milev-park
 ж.к. Гео Милев, 1111 Sofia, 保加利亚
 +359887790010
 M9P7+J9 索非亚 保加利亚
+
+
+表单字段	填写内容	说明
+国家 / 地区 *	保加利亚（Bulgaria）	下拉选择
+地址行 1*	ж.к. Гео Милев	/zh.k. Geo Milev 填写街区 / 住宅区名称（保加利亚地址标准写法）
+地址行 2	Geo Milev Park（可选留空）	补充公园 / 地标名称
+城市 *	Sofia（索非亚）	填写城市名
+省 / 自治区 / 直辖市 *	Sofia City Province（索非亚市州）	对应保加利亚省级行政区，填写 Sofia City 也可识别
+邮政编码 *	1111	该区域的标准邮编，与地址信息完全对应
+
+
+
+
+这个单景点买域名推荐.com
+
 https://maps.app.goo.gl/4jdXFm3mLhMhdhhw9
+
+
 
 
 首屏背景图要引用以下

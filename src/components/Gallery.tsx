@@ -4,25 +4,25 @@ import { useTranslations, useMessages } from 'next-intl';
 import { useState, useCallback } from 'react';
 
 const photos = [
-  { src: '/gallery/geo-milev-park (1).jpg', alt: 'Geo Milev Park Photo 1' },
-  { src: '/gallery/geo-milev-park (2).jpg', alt: 'Geo Milev Park Photo 2' },
-  { src: '/gallery/geo-milev-park (3).jpg', alt: 'Geo Milev Park Photo 3' },
-  { src: '/gallery/geo-milev-park (4).jpg', alt: 'Geo Milev Park Photo 4' },
-  { src: '/gallery/geo-milev-park (5).jpg', alt: 'Geo Milev Park Photo 5' },
-  { src: '/gallery/geo-milev-park (6).jpg', alt: 'Geo Milev Park Photo 6' },
-  { src: '/gallery/geo-milev-park (7).jpg', alt: 'Geo Milev Park Photo 7' },
-  { src: '/gallery/geo-milev-park (8).jpg', alt: 'Geo Milev Park Photo 8' },
-  { src: '/gallery/geo-milev-park (9).jpg', alt: 'Geo Milev Park Photo 9' },
-  { src: '/gallery/geo-milev-park (10).jpg', alt: 'Geo Milev Park Photo 10' },
-  { src: '/gallery/geo-milev-park (11).jpg', alt: 'Geo Milev Park Photo 11' },
-  { src: '/gallery/geo-milev-park (12).jpg', alt: 'Geo Milev Park Photo 12' },
-  { src: '/gallery/geo-milev-park (13).jpg', alt: 'Geo Milev Park Photo 13' },
-  { src: '/gallery/geo-milev-park (14).jpg', alt: 'Geo Milev Park Photo 14' },
-  { src: '/gallery/geo-milev-park (15).jpg', alt: 'Geo Milev Park Photo 15' },
-  { src: '/gallery/geo-milev-park (16).jpg', alt: 'Geo Milev Park Photo 16' },
-  { src: '/gallery/geo-milev-park (17).jpg', alt: 'Geo Milev Park Photo 17' },
-  { src: '/gallery/geo-milev-park (18).jpg', alt: 'Geo Milev Park Photo 18' },
-  { src: '/gallery/geo-milev-park (19).jpg', alt: 'Geo Milev Park Photo 19' },
+  { src: '/gallery/geo-milev-park-1.jpg', alt: 'Geo Milev Park Photo 1' },
+  { src: '/gallery/geo-milev-park-2.jpg', alt: 'Geo Milev Park Photo 2' },
+  { src: '/gallery/geo-milev-park-3.jpg', alt: 'Geo Milev Park Photo 3' },
+  { src: '/gallery/geo-milev-park-4.jpg', alt: 'Geo Milev Park Photo 4' },
+  { src: '/gallery/geo-milev-park-5.jpg', alt: 'Geo Milev Park Photo 5' },
+  { src: '/gallery/geo-milev-park-6.jpg', alt: 'Geo Milev Park Photo 6' },
+  { src: '/gallery/geo-milev-park-7.jpg', alt: 'Geo Milev Park Photo 7' },
+  { src: '/gallery/geo-milev-park-8.jpg', alt: 'Geo Milev Park Photo 8' },
+  { src: '/gallery/geo-milev-park-9.jpg', alt: 'Geo Milev Park Photo 9' },
+  { src: '/gallery/geo-milev-park-10.jpg', alt: 'Geo Milev Park Photo 10' },
+  { src: '/gallery/geo-milev-park-11.jpg', alt: 'Geo Milev Park Photo 11' },
+  { src: '/gallery/geo-milev-park-12.jpg', alt: 'Geo Milev Park Photo 12' },
+  { src: '/gallery/geo-milev-park-13.jpg', alt: 'Geo Milev Park Photo 13' },
+  { src: '/gallery/geo-milev-park-14.jpg', alt: 'Geo Milev Park Photo 14' },
+  { src: '/gallery/geo-milev-park-15.jpg', alt: 'Geo Milev Park Photo 15' },
+  { src: '/gallery/geo-milev-park-16.jpg', alt: 'Geo Milev Park Photo 16' },
+  { src: '/gallery/geo-milev-park-17.jpg', alt: 'Geo Milev Park Photo 17' },
+  { src: '/gallery/geo-milev-park-18.jpg', alt: 'Geo Milev Park Photo 18' },
+  { src: '/gallery/geo-milev-park-19.jpg', alt: 'Geo Milev Park Photo 19' },
 ];
 
 export default function Gallery() {
@@ -97,7 +97,7 @@ export default function Gallery() {
               <>
                 <button
                   onClick={goToPrevious}
-                  className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-ten bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
+                  className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
                   aria-label="Previous photo"
                 >
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -106,7 +106,7 @@ export default function Gallery() {
                 </button>
                 <button
                   onClick={goToNext}
-                  className="absolute right-2 top-1/2 -translate-y-1/2 w-ten h-ten bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
                   aria-label="Next photo"
                 >
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -156,7 +156,7 @@ export default function Gallery() {
         >
           <button
             onClick={closeLightbox}
-            className="absolute top-4 right-4 w-ten h-ten bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
+            className="absolute top-4 right-4 w-10 h-10 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
             aria-label="Close lightbox"
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">

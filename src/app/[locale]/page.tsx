@@ -21,15 +21,14 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://kourionamphitheater.com';
+  const baseUrl = 'https://geomilevpark.com';
   return {
     alternates: {
       canonical: `${baseUrl}/${locale}`,
       languages: {
         'zh': `${baseUrl}/zh`,
         'en': `${baseUrl}/en`,
-        'el': `${baseUrl}/el`,
-        'tr': `${baseUrl}/tr`,
+        'bg': `${baseUrl}/bg`,
         'x-default': `${baseUrl}/en`,
       },
     },
@@ -55,7 +54,6 @@ export default async function HomePage({
         <TicketsSection />
         <TransportSection />
         <InfoSection />
-        <RouteSection />
         <Gallery />
         <Reviews />
         <FAQSection />
