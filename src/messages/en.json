@@ -14,7 +14,7 @@
     "title": "Geo Milev Park",
     "subtitle": "City Park · Sofia, Bulgaria",
     "rating": "4.5",
-    "reviewCount": "11,063 reviews",
+    "reviewCount": "11,096 reviews",
     "type": "Park",
     "openMaps": "View on Google Maps",
     "mapsLink": "https://maps.app.goo.gl/4jdXFm3mLhMhdhhw9"
@@ -106,7 +106,7 @@
     "city": "City",
     "cityValue": "Sofia",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.5 (11,063)",
+    "googleRatingValue": "4.5 (11,096)",
     "address": "Address",
     "addressValue": "zh.k. Geo Milev, 1111 Sofia, Bulgaria",
     "telephone": "Contact Phone",
@@ -272,7 +272,6 @@
       { "id": "info", "label": "Park Profile" },
       { "id": "transport", "label": "Airport & City Transport" },
       { "id": "highlights", "label": "Highlights & Facilities" },
-      { "id": "hotels", "label": "Hotels Nearby" },
       { "id": "faq", "label": "FAQ" }
     ]
   },
@@ -304,18 +303,15 @@
     "items": [
       {
         "name": "Borisova Gradina",
-        "desc": "Sofia's largest and most famous city park, home to the Ariana Lake and the Zoo.",
-        "link": "/en/borisova-gradina"
+        "desc": "Sofia's largest and oldest urban green lung. The park features high biodiversity, the ecological Ariana Lake, a zoo, and an observatory, making it a key educational base for understanding Bulgaria's natural ecology and astronomy."
       },
       {
         "name": "South Park (Yuzhen Park)",
-        "desc": "A sprawling hillside park in southern Sofia with panoramic city views and walking trails.",
-        "link": "/en/south-park"
+        "desc": "A sprawling ecological park built along the natural slopes of Vitosha Mountain. Its design preserves extensive native woodlands and wild bird habitats, offering a perfect environment for observing local ecosystems."
       },
       {
         "name": "Sofia City Center & Serdika",
-        "desc": "Roman ruins, boulevards and the main metro hub — the perfect starting point for your visit.",
-        "link": "/en/sofia-center"
+        "desc": "The cultural core bearing ancient Roman history. Preserved perfectly beneath the modern metro hub are the ruins of ancient Serdika. This open-air archaeological site showcases early European urban planning and Sofia's historical evolution."
       }
     ]
   },

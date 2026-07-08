@@ -14,7 +14,6 @@ import Gallery from '@/components/Gallery';
 import Reviews from '@/components/Reviews';
 import MapEmbed from '@/components/MapEmbed';
 import FAQSection from '@/components/FAQSection';
-import NearbyHotels from '@/components/NearbyHotels';
 import RelatedParks from '@/components/RelatedParks';
 import Footer from '@/components/Footer';
 
@@ -60,7 +59,6 @@ export default async function HomePage({
         <InfoSection />
         <Gallery />
         <Reviews />
-        <NearbyHotels />
         <FAQSection />
         <RelatedParks />
         <MapEmbed />

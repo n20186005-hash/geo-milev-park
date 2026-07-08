@@ -3,7 +3,7 @@ import { useTranslations, useMessages } from 'next-intl';
 export default function RelatedParks() {
   const t = useTranslations('relatedParks');
   const messages = useMessages() as any;
-  const items: Array<{ name: string; desc: string; link: string }> =
+  const items: Array<{ name: string; desc: string }> =
     messages?.relatedParks?.items || [];
 
   return (
@@ -21,10 +21,9 @@ export default function RelatedParks() {
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           {items.map((item) => (
-            <a
+            <div
               key={item.name}
-              href={item.link}
-              className="group rounded-2xl p-6 flex flex-col transition-all hover:-translate-y-1"
+              className="group rounded-2xl p-6 flex flex-col transition-all"
               style={{
                 background: 'var(--bg-tertiary)',
                 border: '1px solid var(--border-color)',
@@ -40,13 +39,7 @@ export default function RelatedParks() {
               <p className="text-sm leading-relaxed flex-1" style={{ color: 'var(--text-secondary)' }}>
                 {item.desc}
               </p>
-              <span
-                className="mt-4 inline-flex items-center gap-1 text-sm font-medium group-hover:gap-2 transition-all"
-                style={{ color: 'var(--accent)' }}
-              >
-                →
-              </span>
-            </a>
+            </div>
           ))}
         </div>
       </div>
