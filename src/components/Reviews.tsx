@@ -32,7 +32,7 @@ export default function Reviews() {
   const mapsLink = messages?.hero?.mapsLink || 'https://maps.app.goo.gl/4jdXFm3mLhMhdhhw9';
 
   return (
-    <section id="reviews" className="section-padding">
+    <section id="reviews" className="section-padding scroll-mt-24">
       <div className="max-w-5xl mx-auto">
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-6"

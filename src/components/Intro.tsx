@@ -8,7 +8,7 @@ export default function Intro() {
   const alsoKnownAsItems: string[] = messages?.intro?.alsoKnownAs?.items || [];
 
   return (
-    <section className="section-padding">
+    <section id="highlights" className="section-padding scroll-mt-24">
       <div className="max-w-4xl mx-auto">
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-6"

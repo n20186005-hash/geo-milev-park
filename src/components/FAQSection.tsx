@@ -5,8 +5,25 @@ export default function FAQSection() {
   const messages = useMessages() as any;
   const items = (messages?.faq?.items || []) as Array<{ question: string; answer: string }>;
 
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: items.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
+  };
+
   return (
-    <section className="section-padding" style={{ background: 'var(--bg-primary)' }}>
+    <section id="faq" className="section-padding scroll-mt-24" style={{ background: 'var(--bg-primary)' }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="max-w-4xl mx-auto">
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-6 text-center"
@@ -18,7 +35,7 @@ export default function FAQSection() {
 
         <div className="space-y-6">
           {items.map((item, index) => (
-            <div 
+            <div
               key={index}
               className="p-6 rounded-xl border"
               style={{ background: 'var(--bg-tertiary)', borderColor: 'var(--accent)' }}

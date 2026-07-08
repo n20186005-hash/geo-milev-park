@@ -7,7 +7,7 @@ export default function MapEmbed() {
   const mapsLink = messages?.hero?.mapsLink || 'https://maps.app.goo.gl/4jdXFm3mLhMhdhhw9';
 
   return (
-    <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
+    <section id="map" className="section-padding scroll-mt-24" style={{ background: 'var(--bg-secondary)' }}>
       <div className="max-w-5xl mx-auto">
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-2"
@@ -15,7 +15,10 @@ export default function MapEmbed() {
         >
           {t('title')}
         </h2>
-        <p className="mb-8 text-sm" style={{ color: 'var(--text-muted)' }}>{t('subtitle')}</p>
+        <p className="mb-2 text-sm" style={{ color: 'var(--text-muted)' }}>{t('subtitle')}</p>
+        {messages?.mapSection?.nearby && (
+          <p className="mb-6 text-sm" style={{ color: 'var(--text-secondary)' }}>{t('nearby')}</p>
+        )}
         <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
         {/* Map */}

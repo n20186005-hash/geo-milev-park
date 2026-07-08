@@ -2,6 +2,7 @@ import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import TableOfContents from '@/components/TableOfContents';
 import Intro from '@/components/Intro';
 import BasicInfo from '@/components/BasicInfo';
 import HoursSection from '@/components/HoursSection';
@@ -13,6 +14,8 @@ import Gallery from '@/components/Gallery';
 import Reviews from '@/components/Reviews';
 import MapEmbed from '@/components/MapEmbed';
 import FAQSection from '@/components/FAQSection';
+import NearbyHotels from '@/components/NearbyHotels';
+import RelatedParks from '@/components/RelatedParks';
 import Footer from '@/components/Footer';
 
 export async function generateMetadata({
@@ -48,6 +51,7 @@ export default async function HomePage({
       <Header />
       <main>
         <Hero />
+        <TableOfContents />
         <Intro />
         <BasicInfo />
         <HoursSection />
@@ -56,7 +60,9 @@ export default async function HomePage({
         <InfoSection />
         <Gallery />
         <Reviews />
+        <NearbyHotels />
         <FAQSection />
+        <RelatedParks />
         <MapEmbed />
       </main>
       <Footer />

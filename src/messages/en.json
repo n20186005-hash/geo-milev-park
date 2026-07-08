@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Geo Milev Park – Sofia, Bulgaria",
-    "description": "Complete travel guide to Geo Milev Park in Sofia. Learn about this park, including location, amenities, and visitor information."
+    "title": "Geo Milev Park, Sofia: Ultimate Visitor Guide, History & Transport",
+    "description": "The complete visitor guide to Geo Milev Park (Парк Гео Милев) in Sofia. Get accurate airport & downtown public transport and driving directions, opening hours, children's playgrounds, and nearby hotel recommendations."
   },
   "header": {
     "home": "Home",
@@ -21,23 +21,23 @@
   },
   "intro": {
     "title": "Discover Geo Milev Park",
-    "description": "Geo Milev Park is a beautiful green space located in the Geo Milev residential district in Sofia. The park is named after the famous Bulgarian poet and writer Geo Milev. It is a favorite place for walks, sports, and relaxation for local residents.",
+    "description": "Geo Milev Park is the green lung of Sofia's eastern residential districts — a calm, mature green space named after the celebrated Bulgarian poet Geo Milev. It is a favorite place for walks, outdoor workouts, and slow, authentic community life for local residents.",
     "visitGuide": {
       "title": "Visit Tips",
       "items": [
-        "The park is open year-round and free to access.",
-        "Best time to visit is early morning or evening.",
-        "There are benches and resting areas.",
-        "Suitable for walks with children and pets."
+        "The park is open year-round and free to access, 24/7.",
+        "Best time to visit is early morning or early evening.",
+        "Benches, shaded alleys and rest areas are available throughout.",
+        "Family- and pet-friendly: children's playgrounds and a fenced dog area."
       ]
     },
     "alsoKnownAs": {
-      "title": "Highlights",
+      "title": "Highlights & Facilities",
       "items": [
-        "Green areas and alleys",
-        "Children's playgrounds",
-        "Benches and rest areas",
-        "Easy access by public transport"
+        "Outdoor Gym — an open-air street workout area",
+        "Park Cafe — a beloved local neighborhood hangout",
+        "Children's playgrounds designed for different age groups",
+        "Fenced dog exercise area for four-legged friends"
       ]
     }
   },
@@ -47,22 +47,22 @@
       {
         "id": "history",
         "title": "History & Name",
-        "content": "The park is named after Geo Milev (1895-1925), a prominent Bulgarian poet, writer, and translator. He is one of the most significant figures in Bulgarian modern literature. The district and park bear his name as a sign of recognition of his literary work."
+        "content": "The park is named after Geo Milev (1895–1925), one of the most influential avant-garde poets, writers, and translators of early 20th-century Bulgaria. He is best known for his expressionist masterpiece 'September' (Септември). Naming this expansive neighborhood green space 'Geo Milev' is not only a tribute to his literary achievement, but also part of Sofia's civic, cultural and historical geography."
       },
       {
         "id": "geography",
         "title": "Location & Access",
-        "content": "The park is located in the Geo Milev residential district in Sofia. The area is well-developed with easy access to public transport, including buses and metro. The park offers a pleasant environment for walking and relaxation."
+        "content": "The park is located in the Geo Milev residential district in eastern Sofia, about 6 km from Sofia Airport and 15–20 minutes from the city center. The area is well-connected with easy access to public transport, including buses and the metro, making it a convenient green escape within the capital."
       },
       {
         "id": "architecture",
         "title": "Amenities & Infrastructure",
-        "content": "The park features well-maintained alleys, green areas, benches for rest, and children's playgrounds. It is a popular place for walking, sports, and outdoor social activities."
+        "content": "Beyond well-maintained mature tree-lined alleys and green lawns, the park features an open-air Outdoor Gym, the popular Park Cafe, several children's playgrounds with swings and safe climbing frames, and a fenced dog exercise area. It is a true community hub for walking, sports, and outdoor social life."
       },
       {
         "id": "protection",
         "title": "Management & Maintenance",
-        "content": "The park is maintained by Sofia Municipality. The green areas are cared for to ensure cleanliness and safety for visitors. The park is an important part of Sofia's green system."
+        "content": "The park is maintained by Sofia Municipality. The green areas are cared for to ensure cleanliness and safety for visitors. The park is an important part of Sofia's green system and a valued public space for all citizens."
       }
     ]
   },
@@ -70,20 +70,28 @@
     "title": "Frequently Asked Questions",
     "items": [
       {
-        "question": "When is Geo Milev Park open?",
-        "answer": "The park is open year-round and accessible to visitors throughout the day. There are no specific operating hours restrictions."
+        "question": "What are the opening hours of Geo Milev Park?",
+        "answer": "As a public open space managed by the Municipality of Sofia, the park is open 24/7, every day of the year. You can visit whenever it suits your schedule — there is no closing time to avoid."
       },
       {
-        "question": "Is there an entrance fee?",
-        "answer": "No, access to the park is completely free for all visitors."
+        "question": "Do I need a ticket to visit Geo Milev Park?",
+        "answer": "No, it is completely free. Geo Milev Park is part of Sofia's municipally maintained public green-space system and no ticket or entry fee of any kind is charged."
       },
       {
-        "question": "Are there children's playgrounds?",
-        "answer": "Yes, there are children's playgrounds in the park where kids can play outdoors."
+        "question": "Is the park accessible for wheelchair users and strollers?",
+        "answer": "Yes. The park's main avenues are paved and flat, making them fully suitable for wheelchair users and families with strollers. Please note, however, that some paths leading deeper into the lawns or specific play areas may be slightly uneven."
       },
       {
-        "question": "Is the park accessible for wheelchair users?",
-        "answer": "The park has alleys that are suitable for wheelchair users, but some areas may be challenging. Please plan your visit in advance."
+        "question": "What is the easiest public transport from Sofia Airport to Geo Milev Park?",
+        "answer": "From Sofia Airport, take the Metro (Line 1 or Line 4) to G.M.Dimitrov or Joliot-Curie station, then walk, cycle, or transfer to a local bus (such as 280) for the final stretch. The whole trip takes about 30–40 minutes — an economical, low-carbon way to travel."
+      },
+      {
+        "question": "What free public facilities are there in the park?",
+        "answer": "The park offers several free facilities for citizens and visitors, including well-maintained children's playgrounds, shaded rest benches, and a popular open-air street gym loved by local youth."
+      },
+      {
+        "question": "Why is the park named \"Geo Milev\"?",
+        "answer": "The park — and the residential district it sits in — are named after Geo Milev (1895–1925), the renowned Bulgarian avant-garde poet, writer and translator, honouring his outstanding historical and cultural contribution to modern Bulgarian literature, especially Expressionism."
       }
     ]
   },
@@ -124,35 +132,39 @@
     "park": "Park Access",
     "parkPrice": "Free",
     "parking": "Parking",
-    "parkingPrice": "Street parking available in the area",
+    "parkingPrice": "Green Zone / free street parking (SMS 1303 on weekdays)",
     "guided": "Guided Tours",
     "guidedPrice": "No official guided tours"
   },
   "transport": {
-    "title": "How to Get Here",
-    "fromCenter": "From Sofia Center",
-    "fromCenterDesc": "Geo Milev district is about 15-20 minutes from Sofia center.",
-    "fromStation": "By Public Transport",
-    "fromStationDesc": "Accessible by buses and metro to Geo Milev district.",
-    "fromAirport": "From the Airport",
-    "fromAirportDesc": "Sofia Airport is about 20-30 minutes by car or taxi.",
-    "publicTransport": "Public Transport",
-    "publicTransportDesc": "Bus lines and metro to Geo Milev district.",
-    "walking": "Walking",
-    "walkingDesc": "You can explore the park on foot from any point in the district.",
-    "driving": "Driving",
-    "drivingDesc": "Easy access by car, street parking available in the area.",
-    "getDirections": "Get Directions"
+    "title": "How to Get to Geo Milev Park",
+    "getDirections": "Get Directions",
+    "airport": {
+      "title": "From Sofia Airport (SOF)",
+      "distance": "Sofia Airport is about 6 km from the park.",
+      "transitTitle": "Public Transport",
+      "transit": "From the airport take Metro Line 1 (yellow) or Line 4 (blue) to G.M.Dimitrov or Joliot-Curie station, then transfer to bus 280 / 84, or walk / take a short taxi (5–10 min) into the Geo Milev district.",
+      "taxiTitle": "Taxi / Driving",
+      "taxi": "Drive via Brussels Blvd and Alexander Malinov Blvd for about 15–20 minutes off-peak. A licensed taxi (e.g. OK Supertrans) costs roughly 12–18 BGN."
+    },
+    "center": {
+      "title": "From Sofia Center",
+      "desc": "From the city center (e.g. Serdika Station) take the metro to Joliot-Curie station, or board city buses 72 or 9, which reach the streets near the park directly. Total trip is about 15–20 minutes."
+    },
+    "parking": {
+      "title": "Driving & Parking",
+      "desc": "The area around the park is Sofia's Green Zone or free street parking. On weekdays, watch the signs — daytime street parking may require payment via SMS (send to 1303). Weekends are usually free."
+    }
   },
   "route": {
     "title": "Recommended Route",
-    "overview": "Explore the park and its surroundings.",
+    "overview": "A relaxed loop through the park and its surroundings.",
     "steps": [
-      "Enter Geo Milev Park",
-      "Walk along the main alley",
-      "Visit the children's playgrounds",
-      "Rest on the benches in the park",
-      "Explore the surroundings of the district"
+      "Enter Geo Milev Park from the main gate",
+      "Stroll along the shaded main alley",
+      "Try the open-air Outdoor Gym or rest at Park Cafe",
+      "Let the kids play at the children's playgrounds",
+      "Explore the quiet streets of the Geo Milev district"
     ]
   },
   "gallery": {
@@ -162,12 +174,12 @@
       "Park view",
       "Green alleys",
       "Children's playground",
-      "Rest benches",
+      "Outdoor Gym",
       "Green areas",
       "Park in spring",
       "Walking alley",
       "Trees and vegetation",
-      "Rest area",
+      "Park Cafe",
       "View towards the district",
       "Park in summer",
       "Flowers in the park",
@@ -229,7 +241,8 @@
   "mapSection": {
     "title": "Map Location",
     "subtitle": "M9P7+J9, Sofia, Bulgaria",
-    "openMaps": "View on Google Maps"
+    "openMaps": "View on Google Maps",
+    "nearby": "Nearby stops: bus 280 / 84 and the G.M.Dimitrov & Joliot-Curie metro stations are a short walk away."
   },
   "footer": {
     "brandName": "Geo Milev Park",
@@ -252,6 +265,59 @@
   "officialManagement": {
     "title": "About Geo Milev Park",
     "text": "Geo Milev Park is maintained by Sofia Municipality. The park is an important part of Sofia's green system and is accessible to all citizens."
+  },
+  "toc": {
+    "title": "On this page",
+    "items": [
+      { "id": "info", "label": "Park Profile" },
+      { "id": "transport", "label": "Airport & City Transport" },
+      { "id": "highlights", "label": "Highlights & Facilities" },
+      { "id": "hotels", "label": "Hotels Nearby" },
+      { "id": "faq", "label": "FAQ" }
+    ]
+  },
+  "nearbyHotels": {
+    "title": "Hotels Near Geo Milev Park",
+    "subtitle": "If you plan to stay around the park and experience the calm of a Sofia neighborhood, here are hand-picked places within walking distance — convenient for both the city center and the airport.",
+    "affiliateNote": "Recommended booking partners (affiliate links):",
+    "hotels": [
+      {
+        "name": "Hotel Triada",
+        "desc": "A well-rated boutique hotel within walking distance of the park, offering easy access to the metro and the airport.",
+        "link": "https://www.booking.com/searchresults.html?ss=Geo%20Milev%2C%20Sofia%2C%20Bulgaria"
+      },
+      {
+        "name": "Serviced Apartments near Geo Milev",
+        "desc": "Quality serviced apartments in the quiet residential streets around the park — ideal for longer, home-like stays.",
+        "link": "https://www.booking.com/searchresults.html?ss=Geo%20Milev%2C%20Sofia%2C%20Bulgaria"
+      },
+      {
+        "name": "Sofia City Center Hotels",
+        "desc": "Prefer to be closer to the sights? Many central Sofia hotels are just a 15–20 minute metro ride from the park.",
+        "link": "https://www.booking.com/city/bg/sofia.html"
+      }
+    ]
+  },
+  "relatedParks": {
+    "title": "Other Must-Visit Green Spaces & Attractions in Sofia",
+    "subtitle": "Continue exploring Sofia's parks and landmarks with our dedicated visitor guides:",
+    "items": [
+      {
+        "name": "Borisova Gradina",
+        "desc": "Sofia's largest and most famous city park, home to the Ariana Lake and the Zoo.",
+        "link": "/en/borisova-gradina"
+      },
+      {
+        "name": "South Park (Yuzhen Park)",
+        "desc": "A sprawling hillside park in southern Sofia with panoramic city views and walking trails.",
+        "link": "/en/south-park"
+      },
+      {
+        "name": "Sofia City Center & Serdika",
+        "desc": "Roman ruins, boulevards and the main metro hub — the perfect starting point for your visit.",
+        "link": "/en/sofia-center"
+      }
+    ]
   },
   "privacy": {
     "title": "Privacy Policy",
